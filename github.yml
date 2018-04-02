@@ -1,0 +1,2 @@
+environment:
+    github_webhook_secret: "xialingming"
