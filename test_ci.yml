@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://18.219.110.211:31112/ 
+
+functions:
+  test_ci:
+    lang: python
+    handler: ./test_ci
+    image: lmxia/test_ci
